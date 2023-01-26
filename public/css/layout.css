@@ -255,7 +255,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #fe6928; }
+ul#nav li.current a { color: #894f40; }
 
 .wanderer-img {
    position: relative;
@@ -365,6 +365,15 @@ ul#nav li.current a { color: #fe6928; }
 #home {
    background: #4e3822;
 }
+
+#home .musicbutton {
+   float:right;
+   width: 20%;
+   height: 100%;
+   position: absolute;
+   margin-left: 300px;
+}
+
 #resume {
    background: #7e4b18;
    padding-top: 90px;

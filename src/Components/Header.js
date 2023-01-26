@@ -54,10 +54,12 @@ class Header extends Component {
       document.body.appendChild(snow);
     }
 
+    /*
     for(let i = 0; i < 5000; i++)
     {
       setTimeout(makeSnow, 500 * i);
     }
+*/
 
     function PlayMusic() {
       var music = new Audio()
@@ -65,7 +67,6 @@ class Header extends Component {
 
     return (
       <header id="home">
-
         <nav id="nav-wrap">
           <ul id="nav" className="nav">
             <li className="current">
@@ -127,7 +128,7 @@ class Header extends Component {
         </nav>
         <div className="row banner">
           <div className="banner-text">
-            <Fade bottom duration={10000}>
+            <Fade bottom duration={1000}>
               <img
                   src={"images/" + "KigurumiLiccaLogo.png"}
               ></img>
