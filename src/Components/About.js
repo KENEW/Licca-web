@@ -23,7 +23,7 @@ class About extends Component {
     const resumeDownload = this.props.data.resumedownload;
 
     return (
-        <section id="about">
+        <section id="about1">
 
         </section>
     );

@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Zmage from "react-zmage";
 import Fade from "react-reveal";
 
 let id = 0;
@@ -45,7 +44,7 @@ class Portfolio extends Component {
     });
 
     return (
-      <section id="portfolio">
+      <section id="about">
         <Fade left duration={1000} distance="40px">
           <div className="sneakpickLayout">
             <img
@@ -58,16 +57,15 @@ class Portfolio extends Component {
               LICCA supplies 1000 KIGURUMI NFTs.
             </p>
             <p>
-              In addition to NEKO, USAGI, KUMA, and SAME drawn in Snack-Pick,
+              In addition to NEKO, USAGI, and KUMA included in SNACK-PICK,
             </p>
             <p>
-              you can have a wider collection of animal pajamas.
+              You can have a larger collection of animal pajamas.
             </p>
             <p>
               Please look forward to the cute LICCAN NFT mint soon ! :)
             </p>
           </div>
-
             <div className="nftInfo">
             <p>
               Also, our team is finding a new direction for NFT.

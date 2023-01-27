@@ -54,6 +54,7 @@ class Header extends Component {
       document.body.appendChild(snow);
     }
 
+
     /*
     for(let i = 0; i < 5000; i++)
     {

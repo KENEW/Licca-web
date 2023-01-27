@@ -3,6 +3,25 @@
 /*
  * Open Sans
 ================================================================================ */
+
+@charset "UTF-8";
+
+@font-face {
+    font-family: "Sunnyspells";
+    src: url("/fonts/SunnyspellsRegular.otf");
+}
+@font-face {
+    font-family: "boorsok";
+    src: url("/fonts/boorsok.ttf");
+}
+@font-face {
+    font-family: "hamilton";
+    src: url("/fonts/Hamilton.ttf");
+}
+@font-face {
+    font-family: "cubby";
+    src: url("/fonts/chubby.ttf");
+}
 @font-face {
     font-family: 'opensans-regular';
     src: url('fonts/opensans/OpenSans-Regular-webfont.eot');
