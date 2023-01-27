@@ -30,7 +30,7 @@ class Footer extends Component {
               </div>
               <div>
                   <a>
-                      © Website Developer Kenew
+                      Developed Licca Team
                   </a>
               </div>
           </Fade>
