@@ -567,10 +567,12 @@ textarea { min-height: 220px; }
 
 label,
 legend {
-   font: 16px/24px 'opensans-bold', sans-serif;
-	margin: 12px 0;
-   color: #3d4145;
-   display: block;
+   font: 35px/35px 'opensans-bold', sans-serif;
+   margin: 40px 0;
+   color: #cbcbcb;
+   display: flex;
+   justify-content: center;
+   text-align: center
 }
 label span,
 legend span {
@@ -596,7 +598,7 @@ input[type="checkbox"] { display: inline; }
 --------------------------------------------------------------- */
 .row {
    width: 96%;
-   max-width: 1020px;
+   max-width: 650px;
    margin: 0 auto;
 }
 /* fixed width for IE8 */

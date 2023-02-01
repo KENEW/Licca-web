@@ -85,6 +85,11 @@ class Header extends Component {
                 ABOUT
               </a>
             </li>
+            <li>
+              <a className="smoothscroll" href="#Wallet Check">
+                Wallet Check
+              </a>
+            </li>
           </ul>
           <ul id="right-nav" className="right-nav">
             {/*
